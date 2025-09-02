@@ -10,7 +10,7 @@ class Layoutje extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Image.asset('images/jihan.png'),
+          Image.asset('images/jihan.jpg'),
           const SizedBox(height: 10),
           const Text('Jihan Safitri',
           style: TextStyle(
