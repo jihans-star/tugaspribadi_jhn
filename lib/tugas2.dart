@@ -11,9 +11,7 @@ class Homepage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            // Tanpa padding
             const Text('Menu aplikasi', style: TextStyle(fontSize: 18)),
-
             const ListTile(leading: Icon(Icons.map), title: Text('Map')),
             const ListTile(leading: Icon(Icons.photo_album), title: Text('Album')),
             const ListTile(leading: Icon(Icons.phone), title: Text('Phone')),
