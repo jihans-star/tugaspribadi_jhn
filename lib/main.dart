@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tugaspribadi/tugas3.dart';
+import 'package:tugaspribadi/Tugas1.dart';
 
 
 void main() {
@@ -14,7 +14,7 @@ class JeApp extends StatelessWidget {
     return const MaterialApp(
       title: "Aplikasi Flutter",
       debugShowCheckedModeBanner: false,
-      home: TugasListBerbagaiItem(),
+      home: LayoutWidget(),
     );
   }
 }
