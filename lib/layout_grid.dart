@@ -6,7 +6,7 @@ class LayoutGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('GridView')),
+      appBar: AppBar(title: Text('Grid View')),
       body: GridView.count(
         crossAxisCount: 2,
         children: List.generate(6, (index){
