@@ -39,10 +39,11 @@ class Homepage extends StatelessWidget {
                 children: List.generate(6, (index) {
                   return Center(
                       child: Text('Item $index',style: const TextStyle(fontSize: 20),
-                      ),
+                    ),
                   );
-                }),
+                }
               ),
+            ),
           ],
         ),
       ),
