@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tugaspribadi/listpeople.dart';
+import 'package:tugaspribadi/form_validation.dart';
 
 
 void main() {
@@ -14,7 +14,7 @@ class JeApp extends StatelessWidget {
     return const MaterialApp(
       title: "Aplikasi Flutter",
       debugShowCheckedModeBanner: false,
-      home: Coba(),
+      home: FormValidation(),
     );
   }
 }
